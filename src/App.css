@@ -43,12 +43,91 @@ html {
 }
 
 .my-button {
-  background-color: #c35f3a; /* Imposta il colore di sfondo del bottone */
-  border: none; /* Rimuovi il bordo del bottone se necessario */
+  background-color: #c35f3a;
+  border: none;
 }
 
-.border-receiver {
-  border: 1px solid #c35f3a;
-  border-radius: 600px;
-  width: 500px;
+.sfondo-rec {
+  background-image: url("./assets/sfondo-rec.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0; /* Aggiungi spaziatura interna per il testo */
+  text-align: center; /* Centra il testo */
+  color: #fff; /* Colore del testo */
+  margin-top: 30px;
+}
+
+/* Aggiungi questi stili al tuo foglio di stile CSS */
+.menu {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu h1 {
+  color: #343a40;
+}
+
+.menu-category {
+  margin-bottom: 30px;
+}
+
+.menu-category h3 {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.menu-item-name {
+  font-weight: bold;
+}
+
+.menu-item-price {
+  margin-left: 10px;
+  color: #6c757d;
+}
+
+.menu-item p {
+  color: #495057;
+}
+
+/* Aggiungi altri stili desiderati per personalizzare ulteriormente il tuo menu */
+
+/* Jumbo.css */
+
+@media (max-width: 768px) {
+  .jumbo {
+    font-size: 40px; /* Modifica la dimensione del font per schermi più piccoli */
+  }
+
+  .my-form {
+    width: 100%; /* Fai sì che il form occupi l'intera larghezza su schermi più piccoli */
+  }
+
+  .margin {
+    margin-left: 10px; /* Modifica il margine sinistro su schermi più piccoli */
+  }
+
+  .jumbo-container {
+    padding: 20px; /* Aggiungi padding per migliorare la presentazione su schermi più piccoli */
+  }
+}
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  /* Centra il form */
+  .my-form {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-image-spacing {
+    margin-bottom: 20px;
+  }
 }

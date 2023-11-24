@@ -3,14 +3,21 @@ import "./App.css";
 import TopBar from "./components/TopBar";
 import Jumbo from "./components/Jumbo";
 import Homepage from "./components/Homepage";
+import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Menu from "./components/Menù";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <TopBar />
       <Jumbo />
-      <Homepage />
-    </div>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="menu" element={<Menu />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
