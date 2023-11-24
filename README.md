@@ -7,6 +7,10 @@ Benvenuti nel cuore di 'L'Agora'! Questo progetto sviluppato con passione in REA
 - 🍲 Gestione del menu con piatti deliziosi
 - 🌟 Recensioni degli ospiti per feedback autentico
 
+
+## Demo
+Scopri 'L'Agora' in azione nel nostro [Demo Online](https://l-agora-vercell.vercel.app)!
+
 ## Come iniziare
 1. Clona il repository
 2. Configura le variabili d'ambiente
